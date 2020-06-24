@@ -217,20 +217,17 @@ df = df[df['next_pitch'].isin(intersection)]
 #df.next_pitch.value_counts()
 
 
-'''
-Pick up again
-'''
+
 
 
 x = df.drop(['next_pitch', 'pitcher_id', 'pitch_type'], axis = 1)
-x.columns
+
 
 x = pd.get_dummies(x, columns=['outs', 'stand', 'top', 'inning', 'count'])
-x.shape
-x.columns
+
 
 y = df['next_pitch']
-y.shape
+
 
 
 #The model!
