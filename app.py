@@ -204,7 +204,6 @@ df = df.loc[df['pitcher_id'] == pitcher_id]
 
 
 
-'''Need to compare Pitch Type Choices to Next Pitch and get rid of any that are not in Pitch Type'''
 pt = df.pitch_type.unique()
 nextP = df.next_pitch.unique()
 
