@@ -1,6 +1,8 @@
 # pitch-predicton-app
 MLB next pitch prediction app with streamlit
 
+Link to Web APP: https://thawing-citadel-06239.herokuapp.com/
+
 
 The idea of this project was to predict the next pitch-type of an at-bat, given the in-game situation. For example, given that the count is 1-1, there are 2 outs, it is the bottom of the 4th inning, the run differential is 1 run, and Lucas Giolito is pitching....then the next pitch in an at-bat will be predicted as a 4 Seam Fastball. 
 
